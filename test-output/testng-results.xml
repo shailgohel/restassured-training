@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3337" started-at="2020-10-03T15:10:01 UTC" finished-at="2020-10-03T15:10:04 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3337" started-at="2020-10-03T15:10:01 UTC" finished-at="2020-10-03T15:10:04 UTC">
+      <class name="restassured.OAuth2Class">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:restassured.OAuth2Class@7a1ebcd8]" name="setupMethod" is-config="true" duration-ms="2540" started-at="2020-10-03T15:10:01 UTC" finished-at="2020-10-03T15:10:03 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="oAuth2Method()[pri:0, instance:restassured.OAuth2Class@7a1ebcd8]" name="oAuth2Method" duration-ms="291" started-at="2020-10-03T15:10:03 UTC" finished-at="2020-10-03T15:10:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oAuth2Method -->
+        <test-method status="PASS" signature="testSsl()[pri:0, instance:restassured.OAuth2Class@7a1ebcd8]" name="testSsl" duration-ms="468" started-at="2020-10-03T15:10:04 UTC" finished-at="2020-10-03T15:10:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSsl -->
+      </class> <!-- restassured.OAuth2Class -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
